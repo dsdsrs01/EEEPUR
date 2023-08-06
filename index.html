@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleição Grêmio Estudantil</title>
+    <script type="text/javascript" src='script.js'></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="urna">
+        <div id="tela">
+            <div id="result">
+                <img id="LgChapa" src="./imgs/voting.png" width="40" height="40">
+                <div>
+                    <input id="nmChapa" type="text" disabled> 
+                </div>
+            </div>
+            <input size="1" id="vs1" class="inp" type="text" placeholder="_" disabled>
+            <input size="1" id='vs2' class="inp" type="text" placeholder="_" disabled>
+        </div>
+        <div id="border">
+            <div id="box">
+                <div>
+                    <button class='btn' onclick="showVisor( this )">1</button>
+                    <button class='btn' onclick="showVisor( this )">2</button>
+                    <button class='btn' onclick="showVisor( this )">3</button>
+                <div>
+                    <button class='btn' onclick="showVisor( this )">4</button>
+                    <button class='btn' onclick="showVisor( this )">5</button>
+                    <button class='btn' onclick="showVisor( this )">6</button>
+                </div>
+                <div>
+                    <button class='btn' onclick="showVisor( this )">7</button>
+                    <button class='btn' onclick="showVisor( this )">8</button>
+                    <button class='btn' onclick="showVisor( this )">9</button>
+                </div>
+                <div id="d0">
+                    <button class='btn' onclick="showVisor( this )">0</button>
+                </div>
+            </div>
+        </div>
+        <div id="ope">
+            <button id="Cor" onclick="corrigir()">CORRIGIR</button>
+            <button id='Env' onclick="enviar()"><p>ENVIAR</p> <img src="" alt=""></button>  
+        </div>
+    </div>   
+</body>
+</html>

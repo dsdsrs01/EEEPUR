@@ -1,0 +1,106 @@
+@keyframes graEfect{
+    0%{
+        background-position: 0 0;
+    }50%{
+        background-position: 400% 0;
+    }100%{
+        background-position: 0 0;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 192, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow';
+}
+body #urna{
+    margin-top: 10%;
+    display: flex;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgb(243, 243, 243);
+}
+body #urna #tela{
+    width: 200px;
+    border-radius: 2px;
+    background-color: rgb(38, 38, 38);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+body #urna #tela .inp{
+    width: 10px;
+    background: none;
+    border: none;
+    text-align: center;
+}
+body #urna #border{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(38, 38, 38);
+    margin: 5px;
+    padding: 7px;
+    border-radius: 2px;
+}
+body #urna #tela #nmChapa{
+    font-family: monospace;
+    background: none;
+    border: none;
+    text-align: center;
+}
+body #urna #tela #LgChapa{
+    margin-top: 10px;
+}
+body #urna #border #box{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(185, 185, 185);
+}
+body #urna #border #box .btn{
+    outline-style: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-family: 'Barlow';
+    border-radius: 50%;
+    border: none;
+}
+body #urna #border #box #d0{
+    display: flex;
+    justify-content: center;
+}
+body #urna #ope{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+body #urna #ope #Cor{
+    width: 50px;
+    height: 20px;
+    background: rgb(255, 192, 0);
+    font-size: 6px;
+    font-family: 'Barlow';
+    border: none;
+    border-radius: 2px;
+}
+body #urna #ope #Env{
+    overflow: hidden;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(37, 180, 37);
+    font-size: 6px;
+    font-family: 'Barlow';
+    border: none;
+    border-radius: 2px;
+}
